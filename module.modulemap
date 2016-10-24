@@ -1,0 +1,6 @@
+module Slibxml [system] {
+  header "parser.h"
+  header "tree.h"
+  link "libxml2"
+  export *
+}
