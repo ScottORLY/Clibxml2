@@ -1,9 +1,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "Slibxml",
+    name: "Clibxml",
     providers: [
-        .Brew("libxml2"),
         .Apt("libxml2")
     ]
 )

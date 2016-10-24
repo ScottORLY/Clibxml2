@@ -1,6 +1,5 @@
-module Slibxml [system] {
-  header "parser.h"
-  header "tree.h"
-  link "libxml2"
+module Clibxml [system] {
+  header "/usr/include/libxml2/libxml/parser.h"
+  header "/usr/include/libxml2/libxml/tree/h"
   export *
 }
