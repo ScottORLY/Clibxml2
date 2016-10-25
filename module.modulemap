@@ -1,4 +1,5 @@
 module Clibxml [system] {
   umbrella "/usr/include/libxml2"
   export *
+  link "xml2"
 }
