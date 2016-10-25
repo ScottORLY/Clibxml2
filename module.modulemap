@@ -1,5 +1,4 @@
 module Clibxml [system] {
-  header "/usr/include/libxml2/libxml/parser.h"
-  header "/usr/include/libxml2/libxml/tree.h"
+  umbrella "/usr/include/libxml2"
   export *
 }
